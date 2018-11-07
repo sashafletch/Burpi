@@ -1,0 +1,194 @@
+
+ /* Title Bar============================== */
+.title-bar {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-column-gap: 10px;
+  margin: 30px 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.title-bar img {
+  display: block;
+  margin: 0 auto;
+  height: 25px;
+  width: auto;
+}
+
+/* Top Navigation=========================== */
+
+.topnav-wrapper {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.25);
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  grid-column-gap: 10px;
+  height: 30px;
+  width: 95%;
+}
+
+.topnav-wrapper div:nth-of-type(1) {
+  text-align: left;
+  padding-left: 20px;
+}
+
+.topnav-wrapper div:nth-of-type(2) {
+  text-align: center;
+}
+
+.topnav-wrapper div:nth-of-type(3) {
+  text-align: right;
+  padding-right: 20px;
+}
+
+.notification {
+  background-color: #f4f4f4;
+  margin: 10px auto 40px auto;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Featured Workout======================= */
+
+.today-workout {
+  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.5);
+  height: 250px;
+  object-fit: cover;
+  object-position: 50% 25%;
+  width: 100%;
+}
+
+.hero h2 {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.like {
+  position: relative;
+  height: 20px;
+  width: auto;
+  z-index: 2;
+}
+
+.hero .like {
+  top: -235px;
+  left: 370px;
+}
+
+#today-title {
+  font-weight: 800;
+}
+
+.today-description h2, .today-description p {
+  display: inline-block;
+}
+
+.today-description h2 {
+  color: #414141;
+  font-family: "Lato", sans-sans-serif;
+  font-size: 1.25em;
+  font-weight: normal;
+}
+
+.today-description p {
+  text-align: right;
+  padding-left: 8.75em;
+}
+
+.selection-wrapper {
+  border-bottom: 1px solid #CBCBCB;
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  height: 40px;
+  margin: 10px auto 30px auto;
+  width: 95%;
+}
+
+.selection-wrapper div {
+  margin-bottom: 10px;
+}
+
+.selection-wrapper div:nth-of-type(1) {
+  text-align: left;
+  border-right: 1px solid #CBCBCB;
+  padding-left: 10px;
+}
+
+.selection-wrapper div:nth-of-type(2) {
+  text-align: center;
+  border-right: 1px solid #CBCBCB;
+  margin-right: -15px;
+}
+
+.selection-wrapper div:nth-of-type(3) {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.selection-wrapper img, .selection-wrapper p {
+  display: inline-block;
+}
+
+.selection-wrapper img {
+  height: 15px;
+  margin-right: 10px;
+  width: auto;
+}
+
+/* Other Workouts=========================== */
+
+.workout-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-column-gap: 5px;
+  margin: 25px auto;
+  text-align: left;
+  width: 95%;
+}
+
+.workout-image {
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  width: 95%;
+}
+
+.workout-wrapper div {
+  padding-left: 10px;
+}
+
+.workout-wrapper h2 {
+  font-size: 1.25em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: #414141;
+  font-weight: normal;
+  margin-bottom: 5px;
+}
+
+.box1 .like, .box2 .like {
+  position: relative;
+  top: -140px;
+  left: 150px;
+  z-index: 2;
+}
+
+#view {
+  margin-left: 20px;
+}
+
+.additional {
+  background-color: #FFCE8B;
+  margin-top: 30px;
+}
+
+.additional p {
+  font-weight: normal;
+  padding: 10px 20px;
+}
