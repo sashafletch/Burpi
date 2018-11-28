@@ -152,14 +152,14 @@ h3 {
 }
 
 #photo1 {
-  background-image: url("images/friend1.jpg");
+  background-image: url("../images/friend1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #photo2 {
-  background-image: url("images/friend2.jpg");
+  background-image: url("../images/friend2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
